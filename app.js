@@ -20,7 +20,7 @@ function update() {
   context.clearRect(0, 0, 800, 600);
 
   context.lineWidth = 0.5;
-  context.strokeStyle = '#193A4D';
+  context.strokeStyle = '#00f';
 
   context.beginPath();
   geoGenerator({type: 'FeatureCollection', features: geojson.features})
